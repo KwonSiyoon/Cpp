@@ -17,7 +17,7 @@ int main() {
 	std::cout << charArray << "\n";
 	std::cout << name << "\n";
 
-
+	
 	//delete[] name;
 
 	std::cin.get();
