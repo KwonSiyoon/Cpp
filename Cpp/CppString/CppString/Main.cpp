@@ -17,8 +17,8 @@ int main() {
 	std::cout << charArray << "\n";
 	std::cout << name << "\n";
 
-	
-	//delete[] name;
+	// char* 는 결국 배열이기 때문에 배열로 삭제.
+	delete[] name;
 
 	std::cin.get();
 	return 0;
